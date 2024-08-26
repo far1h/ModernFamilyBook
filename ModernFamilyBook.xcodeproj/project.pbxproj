@@ -13,8 +13,8 @@
 		9131C1232C7C7C120062EC81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9131C1212C7C7C120062EC81 /* Main.storyboard */; };
 		9131C1252C7C7C140062EC81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9131C1242C7C7C140062EC81 /* Assets.xcassets */; };
 		9131C1282C7C7C140062EC81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9131C1262C7C7C140062EC81 /* LaunchScreen.storyboard */; };
-		9131C1302C7C88B10062EC81 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9131C12F2C7C88B00062EC81 /* DetailsViewController.swift */; };
 		91FBABFB2C7C8E93004C776D /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FBABFA2C7C8E93004C776D /* Character.swift */; };
+		91FBABFD2C7C940C004C776D /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FBABFC2C7C940C004C776D /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +26,8 @@
 		9131C1242C7C7C140062EC81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9131C1272C7C7C140062EC81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9131C1292C7C7C140062EC81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9131C12F2C7C88B00062EC81 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		91FBABFA2C7C8E93004C776D /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		91FBABFC2C7C940C004C776D /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +67,8 @@
 				9131C1242C7C7C140062EC81 /* Assets.xcassets */,
 				9131C1262C7C7C140062EC81 /* LaunchScreen.storyboard */,
 				9131C1292C7C7C140062EC81 /* Info.plist */,
-				9131C12F2C7C88B00062EC81 /* DetailsViewController.swift */,
 				91FBABFA2C7C8E93004C776D /* Character.swift */,
+				91FBABFC2C7C940C004C776D /* DetailsViewController.swift */,
 			);
 			path = ModernFamilyBook;
 			sourceTree = "<group>";
@@ -148,7 +148,7 @@
 				9131C11C2C7C7C120062EC81 /* AppDelegate.swift in Sources */,
 				91FBABFB2C7C8E93004C776D /* Character.swift in Sources */,
 				9131C11E2C7C7C120062EC81 /* SceneDelegate.swift in Sources */,
-				9131C1302C7C88B10062EC81 /* DetailsViewController.swift in Sources */,
+				91FBABFD2C7C940C004C776D /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

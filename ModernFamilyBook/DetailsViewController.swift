@@ -13,10 +13,14 @@ class DetailsViewController: UIViewController {
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var jobLabel: UILabel!
     
+    var selectedCharacter : Character?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        nameLabel.text = selectedCharacter?.name
+        jobLabel.text = selectedCharacter?.job
+        profileImage.image = selectedCharacter?.image
     }
     
 
